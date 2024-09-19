@@ -1,0 +1,28 @@
+.gallery{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: black;
+    margin: auto;
+    gap: 20px;
+    width: 90%;
+   
+}
+.gallery img{
+    width: 250px;
+    grid-column: 1fr 1fr 1fr;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: green;
+    margin: auto;
+    text-align: center;
+
+}
+img{
+    width: 100%;
+    box-sizing: border-box;
+    padding:15px;
+    margin:0;
+ }
+
